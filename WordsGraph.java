@@ -38,7 +38,7 @@ import java.util.*;
 public class WordsGraph {
 
     private List<Character> vertices = new ArrayList<>();
-    public static List<String> meaningfulWords = Arrays.asList("on","no","pan","can","popcorn","pop","corn","nap",
+    public static final List<String> meaningfulWords = Arrays.asList("on","no","pan","can","popcorn","pop","corn","nap",
             "select", "tea","set");
     public WordsGraph(List<Character> vertices) {
         this.vertices = vertices;
